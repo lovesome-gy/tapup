@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --blue-main: #1400EA;
+  --blue-light: #5A9ED;
+  --green-point: #BDFS22;
+  --bg: #f0f4ff;
+  --white: #ffffff;
+  --gray-1: #f7f8fc;
+  --gray-2: #e8ecf4;
+  --gray-3: #b0b8cc;
+  --text-dark: #111827;
+  --text-mid: #4b5563;
+  --shadow: 0 4px 24px rgba(20, 0, 234, 0.08);
+  --radius: 14px;
+  --radius-sm: 8px;
+}
+
+body {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+  background: var(--bg);
+  color: var(--text-dark);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
