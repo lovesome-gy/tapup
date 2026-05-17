@@ -84,6 +84,15 @@ body {
   background-clip: text;
 }
 
+.title-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
 .home-robot {
   width: 36px;
   height: 36px;

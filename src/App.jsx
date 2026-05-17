@@ -351,7 +351,7 @@ export default function App() {
       <div className="template-body">
         <div className="template-intro">
           <h2 className="template-intro-title">
-            가장 많이 사용된<br /><span className="highlight">대화 주제</span>를 골라왔어요 ✉️
+            가장 많이 사용된<br /><span className="highlight">대화 주제</span>를 골라왔어요 <img src="/message-icon.png" alt="" className="title-icon" />
           </h2>
         </div>
         <div className="template-grid">
